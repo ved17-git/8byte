@@ -1,8 +1,5 @@
 import { ThemeToggle } from "@/components/theme-toggle"
-import { PortfolioHeader } from "@/components/portfolio-header"
-import { SectorSummary } from "@/components/sector-summary"
 import { PortfolioTable } from "@/components/portfolio-table"
-import { dummyPortfolioData } from "@/lib/dummy-data"
 import { backend_url } from "./config"
 
 export default async  function Home() {
