@@ -64,7 +64,6 @@ export function PortfolioTable({ marketData }: PortfolioTableProps) {
   return (
     <Card className="bg-card border-border overflow-hidden">
       <CardContent className="p-0">
-        {/* ✅ Display last updated time */}
         <div className="flex justify-end pr-4 pt-3 text-xs text-muted-foreground italic">
           Last updated: {lastUpdated}
         </div>
