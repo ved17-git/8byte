@@ -15,6 +15,8 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
+const port=process.env.PORT || 8000
+
 const bse = new BSE();
 // const nse = new NSE("./index.ts")
 
@@ -116,9 +118,10 @@ app.get('/data',(req,res)=>{
 })
 
 
-app.listen(8000, () => {
-  console.log('Server is running on http://localhost:8000')
+app.listen(port, () => {
+  console.log(`Server is running on ${port}`)
 })
+
 
 //SAVFI
 //511577
