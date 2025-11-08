@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-  import portfolio from '../portfolio.json' with { type:"json" }
+import portfolio from '../portfolio.json' with { type:"json" }
 import { NSE, BSE } from 'nse-bse-api';
 import { Request, Response } from 'express';
 import { portfolioData } from '../src/portfolio.js';

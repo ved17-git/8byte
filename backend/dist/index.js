@@ -87,7 +87,6 @@ app.get('/data', (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on ${port}`);
 });
-export default app;
 //SAVFI
 //511577
 //  const res=await bse.deliveryReport(new Date())

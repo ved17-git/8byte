@@ -62,7 +62,7 @@ export default function Home() {
 
   if (!marketData) {
     return <div className="min-h-screen bg-background flex items-center justify-center">
-      <p className="text-muted-foreground">Loading...</p>
+      <p className="text-muted-foreground">Loading… (Backend not running. Please start the backend on localhost:8000)</p>
     </div>
   }
 
